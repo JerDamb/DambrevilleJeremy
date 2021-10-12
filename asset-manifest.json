@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/DambrevilleJeremy/static/css/main.77d86c2f.chunk.css",
+    "main.js": "/DambrevilleJeremy/static/js/main.2e90b054.chunk.js",
+    "main.js.map": "/DambrevilleJeremy/static/js/main.2e90b054.chunk.js.map",
+    "runtime-main.js": "/DambrevilleJeremy/static/js/runtime-main.0d8eedf1.js",
+    "runtime-main.js.map": "/DambrevilleJeremy/static/js/runtime-main.0d8eedf1.js.map",
+    "static/js/2.9ed24deb.chunk.js": "/DambrevilleJeremy/static/js/2.9ed24deb.chunk.js",
+    "static/js/2.9ed24deb.chunk.js.map": "/DambrevilleJeremy/static/js/2.9ed24deb.chunk.js.map",
+    "static/js/3.2d88e836.chunk.js": "/DambrevilleJeremy/static/js/3.2d88e836.chunk.js",
+    "static/js/3.2d88e836.chunk.js.map": "/DambrevilleJeremy/static/js/3.2d88e836.chunk.js.map",
+    "index.html": "/DambrevilleJeremy/index.html",
+    "static/css/main.77d86c2f.chunk.css.map": "/DambrevilleJeremy/static/css/main.77d86c2f.chunk.css.map",
+    "static/js/2.9ed24deb.chunk.js.LICENSE.txt": "/DambrevilleJeremy/static/js/2.9ed24deb.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0d8eedf1.js",
+    "static/js/2.9ed24deb.chunk.js",
+    "static/css/main.77d86c2f.chunk.css",
+    "static/js/main.2e90b054.chunk.js"
+  ]
+}
