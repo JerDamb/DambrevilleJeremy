@@ -24,7 +24,7 @@ const Home = () => {
       </span>
       <div className="homeContent">
         {/* <motion.div transition={{ duration: 3, loop: Infinity, ease: "anticipate"}} animate={{x: [0, 100, 0, -100, 0], translatex: 10}} className="barres"></motion.div> */}
-        <div className="first-name">TEST</div>
+        <div className="first-name">TEST sur ce sale site de ses morts</div>
         <div className="last-name">Jérémy</div>
         <div className="separation">
           <div></div>
