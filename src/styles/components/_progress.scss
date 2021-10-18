@@ -1,0 +1,50 @@
+.languagesFill{
+	display:grid;
+	grid-template-columns: 10% 1fr;
+	padding: 10px;
+	margin-top: 15px;
+
+	.progressBarImg{
+		height: 45px;
+		width: 45px;
+		margin-left: 30px;
+	}
+
+	.languagesList{
+		margin-right: 30px;
+		margin-left: 60px;
+		margin-top: -2px;
+
+		.languagesName{
+			color:$white;
+		}
+
+		.staticBar{
+			background:$color-1;
+			border-radius:50px;
+		}
+		.progressBar{
+			height: 1rem;
+			background: transparent;
+			border-radius: 50px;
+			margin-top: .2rem;
+			position:relative;
+	
+			&:after{
+				content:'';
+				position:absolute;
+				background:linear-gradient(90deg, $color-6, $color-7, $color-8, $color-9, $color-10);
+				border-radius: 50px;
+				height: 1rem;
+				width:0;
+				animation: line 3s ease-out forwards;
+
+				@keyframes line {
+					to {
+						width:100%;
+					}
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,393 @@
+.test {
+  display: flex;
+  .test-container {
+    width: 65%;
+    height:100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+    grid-template-areas:
+      "experience E"
+      "experience E"
+      "experience E";
+
+    .AutresCompetences {
+      display: grid;
+      grid-area: experience;
+      position: relative;
+      grid-template-rows: 4% 92% 4%;
+      grid-template-areas:
+        "a"
+        "b"
+        "c";
+      // border: 1px solid red;
+
+      .haut {
+        grid-area: a;
+        // background:green;
+      }
+
+      .bas {
+        grid-area: c;
+        // background:blue;
+      }
+
+      .BarreVerticale {
+        z-index: -1;
+        grid-area: b;
+        margin-left: 50%;
+        width: 1px;
+        background: $white;
+        animation-duration: 5s;
+        animation-name: vertical;
+        animation-fill-mode: forwards;
+      }
+      @keyframes vertical{
+        from{
+            height: 1%
+        }
+        to{
+            height:100%;
+        }
+      }
+    }
+
+    .curriculum {
+      display: grid;
+      overflow: hidden;
+      height: 100%;
+      grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+      // grid-template-columns: 1fr 1fr;
+      grid-area: b;
+      position: absolute;
+      // border: 1px solid yellow;
+
+      div:nth-child(odd) {
+        margin-left: 5%;
+        width: 40%;
+        text-align: right;
+        // background:red;
+
+        .separations {
+          margin-left: 5%;
+          margin-top: 5px;
+          width: 100%;
+          height: 1px;
+          background: $white;
+        }
+      }
+
+      div:nth-child(even) {
+        width: 40%;
+        margin-left: 55%;
+        margin-right: 5%;
+        // background:blue;
+
+        .separations {
+          margin-left: -5%;
+          margin-top: 5px;
+          width: 100%;
+          height: 1px;
+          background: $white;
+        }
+      }
+
+      .exp {
+        h4 {
+          color: $color-3;
+          font-weight: 100;
+          text-transform: uppercase;
+          font-size: $font-size-1;
+        }
+        h5 {
+          color: $white;
+          font-weight: 100;
+          font-size: $font-size-2;
+          text-transform: uppercase;
+        }
+        p {
+          color: $white;
+          font-weight: 100;
+          margin-top: 10px;
+        }
+      }
+    }
+  }
+
+    .test-collone-droite{
+      width:35%;
+      display:grid;
+      // grid-template-rows: 1fr 1fr 20%;
+      .languagesFrameworks {
+        margin: 6% 6% 3% 6%;
+        background: $color-2;
+        border-radius: 8px;
+  
+        .languagesDisplay {
+          height: 100%;
+          display: grid;
+          align-items: center;
+          grid-template-rows: auto 1fr;
+          grid-template-areas:
+            "1"
+            "2";
+  
+          h3 {
+            grid-area: 1;
+            margin-top: 10px;
+            text-align: center;
+            text-transform: uppercase;
+            font-family: $font-1;
+            font-size: $font-size-1;
+            font-weight: 100;
+            color: $color-3;
+          }
+  
+          .containerBars {
+            margin: 20px 0 20px 0;
+            .languagesFill {
+              margin-top: 0;
+              margin-left: 30px;
+              height: auto;
+              display: grid;
+              grid-template-columns: 10% 1fr;
+              padding: 10px;
+  
+              img {
+                height: 45px;
+              }
+  
+              .languagesList {
+                margin: 0 30px 0 30px;
+                .languagesName {
+                  color: $white;
+                }
+  
+                //   li {
+                //   }
+  
+                .staticBar {
+                  background: $color-1;
+                  border-radius: 50px;
+  
+                  .progressBar {
+                    height: 1rem;
+                    background: transparent;
+                    border-radius: 50px;
+                    margin-top: 0.2rem;
+                    position: relative;
+  
+                    &:after {
+                      content: "";
+                      position: absolute;
+                      background: linear-gradient(
+                        90deg,
+                        $color-6,
+                        $color-7,
+                        $color-8,
+                        $color-9,
+                        $color-10
+                      );
+                      border-radius: 50px;
+                      height: 1rem;
+                      width: 0;
+                      animation: line 3s ease-out forwards;
+  
+                      @keyframes line {
+                        to {
+                          width: 100%;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+  
+      .otherSkills {
+        background: $color-2;
+        margin: 3% 6% 3% 6%;
+        border-radius: 8px;
+        display: grid;
+        grid-template-rows: auto 1fr;
+        grid-template-areas:
+          "1"
+          "2";
+  
+        h3 {
+          grid-area: 1;
+          margin-top: 10px;
+          text-align: center;
+          text-transform: uppercase;
+          font-family: $font-1;
+          font-size: $font-size-1;
+          font-weight: 100;
+          color: $color-3;
+          height: 100%;
+        }
+  
+        .list {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-wrap: wrap;
+          // margin:20px;
+          div {
+            margin: 10px;
+            height: auto;
+            width: 25%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            img {
+              height: 40px;
+            }
+          }
+        }
+      }
+  
+      .hobbiesContainer {
+        background: $color-2;
+        border-radius: 8px;
+        margin: 3% 6% 6% 6%;
+        display: grid;
+        grid-template-rows: 10% 1fr;
+        grid-template-areas:
+          "1"
+          "2";
+  
+        h3 {
+          grid-area: 1;
+          margin-top: 10px;
+          text-align: center;
+          text-transform: uppercase;
+          font-family: $font-1;
+          font-size: $font-size-1;
+          font-weight: 100;
+          color: $color-3;
+          height: 100%;
+        }
+        .hobbies {
+          grid-area: 2;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+  
+          ul {
+            margin: 20px;
+            width: 50%;
+            li {
+              text-align: center;
+              margin: 20px 0 20px 0;
+              i {
+                color: $white;
+                font-size: $font-size-1;
+              }
+              span {
+                color: $white;
+                font-family: $font-1;
+                font-size: $font-size-1;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+
+@media screen and (max-width: 850px){
+  .test{
+    .test-container{ 
+      width:100%;
+      min-height: 1100px; 
+
+      .AutresCompetences{
+        .curriculum{
+          .exp{
+            H4{
+              font-size: $font-size-2;
+            }
+            H5{
+              font-size: $font-size-2;
+            }
+            p{
+              font-size: $font-size-3;
+            }
+          }
+        }
+      }
+    }
+    .test-collone-droite{
+      width:100%;
+
+      .languagesFrameworks{
+        .languagesDisplay{
+          h3{
+            font-size: $font-size-2;
+          }
+          .containerBars{
+            .languagesFill{
+              .languagesList{
+                .languagesName{
+                  font-size: $font-size-3;
+                }
+              }
+            }
+          }
+        }
+      }
+      .otherSkills{
+        h3{
+          font-size: $font-size-2;
+        }
+      }
+      .hobbiesContainer{
+        H3{
+          font-size: $font-size-2;
+        }
+
+        .hobbies{
+          ul{
+            li{
+              i{
+                font-size: $font-size-3;
+              }
+              span{
+                font-size: $font-size-3;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 540px){
+  .test{
+    .test-container{ 
+      width:100%;
+      min-height: 1400px; 
+
+      .AutresCompetences{
+        .curriculum{
+          .exp{
+            H4{
+              font-size: $font-size-3;
+            }
+            H5{
+              font-size: $font-size-3;
+            }
+          }
+        }
+      }
+    }
+    .test-collone-droite{
+      width:100%;
+    }
+  }
+}

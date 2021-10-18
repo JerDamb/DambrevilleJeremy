@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@800&family=Roboto:wght@100&display=swap');
+
+$font-1: 'raleway', sans-serif;
+$font-2: 'dosis', sans-serif;
+
+$title-size-1: 5rem;
+$title-size-2: 2rem;
+$title-size-3: 3rem;
+$title-size-4: 4rem;
+
+$font-size-1: 20px;
+$font-size-2: 17px;
+$font-size-3: 15px;
+
+
+$color-1:#19181F;
+$color-2:#221F28;
+$color-3:#FF6161;
+
+$white: #ddd;
+$black: #333;
+
+//gradient colors 1//
+$color-4:#0d2245;
+$color-5:#832a76;
+$color-6:#f94c5c;
+
+//gradient colors 2//
+$color-7:#fa7219;
+$color-8:#d03324;
+$color-9:#ae022e;
+$color-10:#9e2280;
+$color-11:#30c2e0;
+
+
+$shadow: -1px 5px 12px -4px rgba(0,0,0,0.74);
+$min-height:100%;
+
+
+
+@mixin verticalCenter{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: $color-1;
+    // margin: 1rem auto;
+    // max-width: 100%;
+    font-family: $font-1;
+    color: $black;
+}
+
+button {
+    cursor:pointer;
+}
+
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color:$black;
+    cursor:pointer;
+}
+
+a:visited{
+    color:$black;
+}
+
+.home, .knowledges, .portfolio, .contact, .test{
+    display:flex;
+
+    @media screen and (max-width: 850px){
+        display:block !important;
+    }
+}
+
+.homeContent, .knowledgesContent, .portfolio-content, .contactContent, .test-container{
+    @media screen and (max-width:850px){
+        margin-left: 0 !important;
+    }
+}

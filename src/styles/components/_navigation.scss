@@ -1,0 +1,125 @@
+.dark-mode {
+  background-color:red;
+  color: #999;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.light-mode {
+  background-color: #fff;
+  color: #333;
+  height: 100%;
+  transition: background-color 0.25s ease-in-out;
+}
+
+.sidebar {
+  font-family: $font-1;
+  height: 100%;
+  min-height: $min-height;
+  width: 200px;
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  // grid-template-rows: 250px 1fr 108px;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    "1"
+    "2";
+
+  // border: 1px solid green;
+
+  .navigation {
+    margin-left: 35px;
+    margin-top: 35px;
+    grid-area: 1;
+    // padding: 2rem 1rem;
+    // border: 1px solid yellow;
+
+    ul {
+      li {
+        font-weight: lighter;
+        font-size: $font-size-2;
+        height: 25px;
+        cursor:pointer;
+        // position:relative;
+        a{
+          color:$white;
+          opacity: .5;
+          transition: .5s;
+
+          &:hover{
+            opacity: 1;
+            margin-left:5px;
+          }
+        }      
+        .navActive {
+          margin-left:25px;
+          opacity:1;
+
+          &:hover{
+            margin-left: 25px;
+          }
+        }
+      }
+      i{
+        display:none;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 850px) {
+  .sidebar {
+    display: flex;
+    min-height: 50px;
+    margin-bottom: 0.2rem;
+    width: 100%;
+    align-items: center;
+
+    .id,
+    .socialNetwork {
+      display: none;
+    }
+
+    .navigation {
+      margin-top: 10px;
+      margin-left: 0px;
+      width: 100%;
+      padding: 0.1rem 1rem;
+
+      ul {
+        display: flex;
+        justify-content: space-between;
+
+        li{
+          a:hover{
+            margin-left:0px;
+          }
+        }
+
+        span {
+          margin-left: 1.5 !important;
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 580px) {
+  .sidebar {
+    ul {
+      justify-content: space-around !important;
+
+      li {
+        padding: 1rem 0 !important;
+      }
+      i {
+        opacity:block;
+        font-size: 1.4rem !important;
+        transform: translate(-3px) !important;
+      }
+      span {
+        display: none;
+      }
+    }
+  }
+}
