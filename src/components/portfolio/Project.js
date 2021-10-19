@@ -27,7 +27,7 @@ export default class Project extends Component {
                                         <h2 className="stroke">{name}</h2>
                                     </div>
                                     <div className="informations">
-                                        Bla Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        hello Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         Nesciunt eos deserunt temporibus facere iure saepe ea veritatis, 
                                         officia sapiente, sequi vitae fugit tempora quo exercitationem 
                                         inventore explicabo. Quidem dicta similique inventore labore quo 

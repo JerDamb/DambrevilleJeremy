@@ -11,11 +11,11 @@ class ProjectList extends Component {
             <div>
                 <div className="portfolio-content">   
                     <div className="left-column"></div>
-                    <ul className="radioDisplay">
+                    {/* <ul className="radioDisplay">
                         <span></span>
                         <span></span>
                         <span></span>
-                    </ul>
+                    </ul> */}
                     <div className="separation1"></div>
                     <div className="projects">
                         {
@@ -32,9 +32,9 @@ class ProjectList extends Component {
                     <div className="separation2"></div>
                     <div className="changePage">
                         {/* <span><</span> */}
-                        <span>1</span>
+                        {/* <span>1</span>
                         <span>2</span>
-                        <span>3</span>
+                        <span>3</span> */}
                         {/* <span>></span> */}
                     </div>
                     <div className="right-column"></div>
