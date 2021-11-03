@@ -56,9 +56,9 @@ const AutresComp = () => {
                     <motion.h4 variants={right}>Apprentissage Javascript, ReactJS, VueJS</motion.h4>
                     <motion.h5 variants={right}>Sept. 2020 - Maintenant</motion.h5>
                     <motion.div variants={right} className="separations"></motion.div>
-                    <motion.p variants={right}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quae, consectetur vitae cumque iusto nesciunt harum
-                       nulla dignissimos beatae officia, ad similique? Saepe repellat tempora quidem dolore earum suscipit fugit maiores vitae odit neque, 
-                       itaque officia officiis temporibus!
+                    <motion.p variants={right}>- Apprentissage VueJS<br />
+                                               - Apprentissage ReactJS<br />
+                                               - Réalisation de différents projets en Javascript, ReactJS, MERN
                     </motion.p>
                 </motion.div>
                 <motion.div initial="hidden" 
@@ -70,9 +70,9 @@ const AutresComp = () => {
                     <motion.h4 variants={left}>SUPINFO master of science</motion.h4>
                     <motion.h5 variants={left}>2014 - 2015</motion.h5>
                     <motion.div variants={left} className="separations"></motion.div>
-                    <motion.p variants={left}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quae, consectetur vitae cumque iusto nesciunt harum
-                       nulla dignissimos beatae officia, ad similique? Saepe repellat tempora quidem dolore earum suscipit fugit maiores vitae odit neque, 
-                       itaque officia officiis temporibus!
+                    <motion.p variants={left}>- Développement C# <br />
+                                              - CSS <br />
+                                              - Projets en équipe<br />
                     </motion.p>
                 </motion.div>
                 <motion.div initial="hidden" 
@@ -81,12 +81,11 @@ const AutresComp = () => {
                             custom={2}
                             className="exp"
                             >
-                    <motion.h4 variants={right}>Développeur web - Aldebaran Robotics</motion.h4>
+                    <motion.h4 variants={right}>Développement web - Aldebaran Robotics</motion.h4>
                     <motion.h5 variants={right}>Janv. 2013 - Mars 2013</motion.h5>
                     <motion.div variants={right} className="separations"></motion.div>
-                    <motion.p variants={right}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quae, consectetur vitae cumque iusto nesciunt harum
-                       nulla dignissimos beatae officia, ad similique? Saepe repellat tempora quidem dolore earum suscipit fugit maiores vitae odit neque, 
-                       itaque officia officiis temporibus!
+                    <motion.p variants={right}>Correction de bugs sur un site web<br />
+                                               Création de pages web en Django
                     </motion.p>
                 </motion.div>
                 <motion.div initial="hidden" 
@@ -98,9 +97,9 @@ const AutresComp = () => {
                     <motion.h4 variants={left}>BTS SLAM</motion.h4>
                     <motion.h5 variants={left}>2011 - 2013</motion.h5>
                     <motion.div variants={left} className="separations"></motion.div>
-                    <motion.p variants={left}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quae, consectetur vitae cumque iusto nesciunt harum
-                       nulla dignissimos beatae officia, ad similique? Saepe repellat tempora quidem dolore earum suscipit fugit maiores vitae odit neque, 
-                       itaque officia officiis temporibus!
+                    <motion.p variants={left}>- Programmation orientée objet<br />
+                                              - Programmation Web<br />
+                                              - Projets en équipe
                     </motion.p>
                 </motion.div>
                 <motion.div initial="hidden" 
@@ -109,12 +108,12 @@ const AutresComp = () => {
                             custom={4}
                             className="exp"
                             >
-                    <motion.h4 variants={right}>Développeur web - Aldebaran Robotics</motion.h4>
+                    <motion.h4 variants={right}>Développement orienté objet - Aldebaran Robotics</motion.h4>
                     <motion.h5 variants={right}>Janv. 2012 - Mars 2012</motion.h5>
                     <motion.div variants={right} className="separations"></motion.div>
-                    <motion.p variants={right}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, quae, consectetur vitae cumque iusto nesciunt harum
-                       nulla dignissimos beatae officia, ad similique? Saepe repellat tempora quidem dolore earum suscipit fugit maiores vitae odit neque, 
-                       itaque officia officiis temporibus!
+                    <motion.p variants={right}>- Programmation orientée objet<br />
+                                              - Programmation Web<br />
+                                              - Projets en équipe
                     </motion.p>
                 </motion.div>
             </div>
