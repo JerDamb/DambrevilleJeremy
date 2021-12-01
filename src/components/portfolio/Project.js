@@ -24,7 +24,7 @@ export default class Project extends Component {
                                 <div className="infosContent">
                                     <div className="head">
                                         <h2>{name}</h2>
-                                        {/* <h2 className="stroke">{name}</h2> */}
+                                        <h2 className="stroke">{name}</h2>
                                     </div>
                                     <div className="informations">
                                         {info}<br /><br />
