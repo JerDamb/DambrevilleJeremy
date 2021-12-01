@@ -42,7 +42,7 @@ const PasseTemps = () => {
           </motion.li>
           <motion.li variants={item}>
             <i className="fas fa-running"></i>
-            <span> Course à pied</span>
+            <span> Sport </span>
           </motion.li>
         </ul>
         <ul>

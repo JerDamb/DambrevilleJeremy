@@ -39,15 +39,15 @@ const Home = () => {
               </a>
             </li>
             <li>
-              <a href="/#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/JerDamb" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-github"></i>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="/#" target="_blank" rel="noopener noreferrer">
                 <i className="fab fa-twitter"></i>
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>

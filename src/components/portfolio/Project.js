@@ -13,7 +13,7 @@ export default class Project extends Component {
     }
 
     render() {
-        let { name, languages, languagesIcons, source, info, picture } = this.props.item;
+        let { name, languages, languagesIcons, regles, source, info, picture } = this.props.item;
         return (
             <>
                 {
@@ -24,16 +24,12 @@ export default class Project extends Component {
                                 <div className="infosContent">
                                     <div className="head">
                                         <h2>{name}</h2>
-                                        <h2 className="stroke">{name}</h2>
+                                        {/* <h2 className="stroke">{name}</h2> */}
                                     </div>
                                     <div className="informations">
-                                        hello Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                                        Nesciunt eos deserunt temporibus facere iure saepe ea veritatis, 
-                                        officia sapiente, sequi vitae fugit tempora quo exercitationem 
-                                        inventore explicabo. Quidem dicta similique inventore labore quo 
-                                        dolorum odio eveniet ad officia libero autem esse placeat ipsam, sint 
-                                        earum fugit at! Minus vero eum animi maiores a quod eligendi, iste 
-                                        pariatur nam cumque porro.
+                                        {info}<br /><br />
+                                        {regles}<br /><br />
+                                        Languages utilisés: {languages[0]}, {languages[1]}, {languages[2]}
                                     </div>
                                     <div className="languages">
                                         {languagesIcons.map(icon =>
