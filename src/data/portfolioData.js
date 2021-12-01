@@ -7,7 +7,7 @@ export const portfolioData = [
     source: 'http://www.github.com',
     info: "Le Tic-Tac-Toe est un jeu de réflexion se pratiquant à deux joueurs au tour par tour et dont le but est de créer le premier un alignement sur une grille.",
     regles:"Les joueurs inscrivent tour à tour leur symbole sur une grille qui n'a pas de limites ou qui n'a que celles du papier sur lequel on joue. Le premier qui parvient à aligner cinq de ses symboles horizontalement, verticalement ou en diagonale gagne un point.",
-    picture: './media/tictactoe.JPG'
+    picture: './media/tictactoe.png'
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ export const portfolioData = [
     source: 'http://www.github.com',
     info: "Le jeu se compose de paires de cartes portant des illustrations identiques. Le joueur qui découvre le plus de paires à gagné.",
     regles:"À son tour, chaque joueur retourne deux cartes de son choix. S'il découvre deux cartes identiques il peut rejouer. Si les cartes ne sont pas identiques c'est à son adversaire de jouer. Le jeu se termine quand toutes les paires de cartes ont été découvertes.",
-    picture: './media/memory.JPG'
+    picture: './media/memory.png'
   },
   {
     id: 3,
@@ -36,7 +36,7 @@ export const portfolioData = [
     languagesIcons: ['fab fa-js','fab fa-php','fab fa-react'],
     source: 'http://www.github.com',
     info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/reseausocial.JPG'
+    picture: './media/reseausocial.png'
   },
   {
     id: 5,
@@ -55,6 +55,6 @@ export const portfolioData = [
     languagesIcons: ['fab fa-js','fab fa-react','fab fa-css3-alt'],
     source: 'http://www.github.com',
     info: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium, veritatis debitis odio eveniet quos incidunt eaque nemo eius perferendis consequatur? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus laboriosam aut nihil? Possimus, id facilis dignissimos repudiandae modi dolorum ea accusantium.',
-    picture: './media/wall6.JPG'
+    picture: './media/wall6.png'
   },
 ]
