@@ -40,7 +40,7 @@ export default class Project extends Component {
                                         <ul onClick={this.handleInfo}>
                                             <li classname="prev"><span></span></li>
                                         </ul>
-                                        <button>Lien</button>
+                                        <button></button>
                                     </div>
                                 </div>
                             </div>

@@ -1,11 +1,20 @@
-@import './settings';
-@import './components/navigation';
-@import './pages/home';
-@import './pages/knowledges';
+@import "./settings";
+
+// Components
+@import "./components/navigation";
+@import "./components/form";
+@import "./components/progress";
+@import "./components/cursor";
+
+// Pages
+@import "./pages/home";
+@import "./pages/knowledges";
+@import "./pages/contact";
+@import "./pages/portfolio";
+@import "./pages/test";
 // @import './pages/notFound';
-@import './pages/contact';
-@import './pages/portfolio';
-@import './components/form';
-@import './components/progress';
-@import './components/cursor';
-@import './pages/test';
+
+// Projets Site
+@import "./ProjetsSite/cards";
+@import "./ProjetsSite/reunion";
+@import "./ProjetsSite/mastermind";

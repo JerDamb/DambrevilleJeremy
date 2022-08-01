@@ -15,7 +15,7 @@ const Home = () => {
       <span className="text-bg">
         {/* <div class="marquee"> */}
         {/* <div class="marquee__inner" aria-hidden="true"> */}
-        <span>Accueil</span>
+        {/* <span>Accueil</span> */}
         {/* <span>Accueil</span>
             <span>Accueil</span>
             <span>Accueil</span> */}

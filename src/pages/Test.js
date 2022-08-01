@@ -11,7 +11,7 @@ const Test = () => {
     return (
         <motion.div className="test" initial={{opacity:0}} animate={{opacity:1}} exit={{opacity:0}} transition={{duration:0.5}}>
             <Navigation /> 
-            <span className="text-bg">Compétences</span>
+            {/* <span className="text-bg">Compétences</span> */}
             <div className="test-container">
                 <AutresComp />
             </div> 
